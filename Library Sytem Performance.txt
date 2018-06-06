@@ -1,0 +1,18 @@
+{
+	authors: ["William", "Warner"],
+	ISBN: "978-3-16-148410-0",
+	keywords: ["word1", "word2"],
+	borrowedDate:new Date("2018-06-05"),
+	dueDate:new Date("2018-07-04"),
+	totalDatesRemaining: dueDate-borrowedDate-date.now(),
+	student:{
+		"name":"Avenash",
+		"id":"986435",
+		"email":av.kumar@mum.edu
+	}
+}
+
+Comments:
+-> Here we can create 'Compound' index on ISBN, totalDatesRemaining, and student.email. When the Library system needs to find all student who have to return books, will be contacted directly via email. 
+
+With this approach our index is enough to return desired information, there is no need to go to the original document.
