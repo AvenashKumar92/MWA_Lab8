@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5b1753b8f1b695a718eb6256"},"name":"Caribbean Kitchen","category":"Restaurant","location":{"type":"Point","coordinates":[{"$numberDouble":"-92.0378404"},{"$numberDouble":"41.0103545"}]}}
+{"_id":{"$oid":"5b1754f39ba81c47c4318cd6"},"name":"Pizza Ranch","category":"Restaurant","location":{"type":"Point","coordinates":[{"$numberDouble":"-91.0378404"},{"$numberDouble":"42.0103545"}]}}
+{"_id":{"$oid":"5b1756cdee3501b2644203b5"},"name":"Ottumwa Pizza","category":"Restaurant","location":{"type":"Point","coordinates":[{"$numberDouble":"100.0378404"},{"$numberDouble":"42.0103545"}]}}
